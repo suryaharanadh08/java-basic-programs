@@ -1,0 +1,23 @@
+<xml>
+<guests>
+
+  <guest>
+
+    <firstName>John</firstName> <lastName>Doe</lastName>
+
+  </guest>
+
+  <guest>
+
+    <firstName>María</firstName> <lastName>García</lastName>
+
+  </guest>
+
+  <guest>
+
+    <firstName>Nikki</firstName> <lastName>Wolf</lastName>
+
+  </guest>
+
+</guests>
+</xml>
