@@ -1,3 +1,5 @@
+/*Program to replace each word’s first letter with its previous character in a given*/
+
 class pro14
 {
     public static void main(String[] args) {
