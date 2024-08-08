@@ -1,3 +1,5 @@
+/*
+18.Write a program to find the percentage of uppercase, lowercase, vowels,consonants digits, and special characters in a String.*/
 class pro18
 {
     public static void main(String[] args) {
