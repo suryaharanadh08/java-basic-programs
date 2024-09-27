@@ -25,7 +25,7 @@ class demoMethodOverriding
 {
     public static void main(String[] args)
     {
-        Game obj= new Game();
+        Game obj= new sport();
         obj.cricket();    
     }
 }

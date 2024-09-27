@@ -1,14 +1,14 @@
-class MyOwnException extends Throwable
+class surya extends Throwable
 {
 
-    MyOwnException(String s) {
+    surya(String s) {
         super(s);
     }
     
 }
-class UserDefinedException
+class UserDefinedException 
 {
-    public static void main(String[] args) throws MyOwnException
+    public static void main(String[] args) throws surya
     {
       int age = 13;
       try
@@ -19,14 +19,13 @@ class UserDefinedException
             }
             else
             {
-                 throw new MyOwnException("You are not eligible to vote >>");
+                 throw new surya("You are not eligible to vote >>");
             }    
       
       }
-      catch(MyOwnException e)
+      catch(surya e)
       {
         System.out.println(e);
       }
-      System.out.println("surya");
     }
 }
