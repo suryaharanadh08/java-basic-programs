@@ -1,4 +1,8 @@
-class MyOwnExceptionA extends Exception{
+/*write a program to create custom exception and hadle it.
+Scenarios like:1.Invalid credentials to login 
+               2.Unauthorised to this department
+*/
+    class MyOwnExceptionA extends Exception{
     MyOwnExceptionA(String s){
         super(s);
     }
