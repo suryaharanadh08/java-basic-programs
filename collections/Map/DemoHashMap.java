@@ -24,7 +24,11 @@ class DemoMap{
         Iterator it = s.iterator();
         while(it.hasNext()){
             Map.Entry m1 = (Map.Entry) it.next();
-            System.out.println(m1.getKey() +"  "+m1.getValue());
+            System.out.println(m1.getKey() +"  "+m1.getValue(
+            ));
+        }
+        for(Map.Entry obj:m.entrySet()){
+            System.out.println(obj.getKey());
         }
     
     }
