@@ -1,3 +1,4 @@
+//Replace all vowels with previous character from the string.
 class Pro1{
     public static void main(String args[]){
         String s = "miracle";
