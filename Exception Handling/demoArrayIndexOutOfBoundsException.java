@@ -1,4 +1,4 @@
-class demoArithmeticException
+class demoArrayIndexOutOfBoundsException
 {
     public static void main(String[] args) {
         try

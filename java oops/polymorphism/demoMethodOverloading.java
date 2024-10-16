@@ -13,13 +13,14 @@ class demoMethodOverloading
     {
         return a+b;
     }
-    static int add(int a,int b,int c)
+     int add(int a,int b,int c)
     {
         return a+b+c;
     }
 
     public static void main(String args[])
     {
-        System.out.println(add(1,2,3));
+        demoMethodOverloading obj = new demoMethodOverloading();
+        System.out.println(obj.add(1.8f,3));
     }
 }
